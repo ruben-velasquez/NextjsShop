@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className={style.nav}>
             <div className={style.title}>
-                <h1>Título</h1>
+                <h1>Title</h1>
         </div>
         <div>
             <SearchBox />

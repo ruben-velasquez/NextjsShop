@@ -6,7 +6,7 @@
 }  
 
 .section {
-    background: white;
+    background: var(--section-background);
     display: grid;
     justify-items: center;
     overflow: hidden;

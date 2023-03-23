@@ -16,7 +16,7 @@ a {
 body {
   min-height: 100vh;
   padding-top: var(--nav-height);
-  background-color: whitesmoke;
+  background-color: var(--background);
 }
 
 h1, h2 {
@@ -33,8 +33,8 @@ p {
   --pallete-4: #febf97;
   --pallete-5: #f5ecb7;
 
-  --white: white;
-  --black: black;
+  --section-background: white;
+  --background: whitesmoke;
 
   --title-color: black;
   --description-color: rgb(100, 100, 100);

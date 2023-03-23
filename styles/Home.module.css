@@ -9,3 +9,9 @@
 .home .content {
     flex-basis: 80%;
 }
+
+.home .hero {
+    width: 100%;
+    padding: 20px;
+    background: var(--pallete-2);
+}
