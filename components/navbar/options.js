@@ -1,5 +1,5 @@
 import style from "../../styles/Navbar.module.css";
-import { BiShoppingBag, AiOutlineUser } from "react-icons/bi";
+import { BiShoppingBag, BiUser } from "react-icons/bi";
 
 export default function Options() {
     return (
@@ -9,7 +9,7 @@ export default function Options() {
                 <p>My Cart</p>
             </div>
             <div className={style.option}>
-                <AiOutlineUser />
+                <BiUser />
                 <p>Account</p>
             </div>
         </div>

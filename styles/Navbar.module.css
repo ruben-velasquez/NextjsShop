@@ -47,9 +47,7 @@
 }
 .searchBox .icon {
     padding: 10px;
-    color: var(--title-color-alt);
-    border-left: 1px solid var(--pallete-2);
-    background: var(--pallete-2);
+    color: var(--title-color);
     display: flex;
     justify-content: center;
     align-items: center

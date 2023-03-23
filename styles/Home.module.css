@@ -1,0 +1,11 @@
+.home {
+    width: 100%;
+    min-height: var(--window-height);
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.home .content {
+    flex-basis: 80%;
+}

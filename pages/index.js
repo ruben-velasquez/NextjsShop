@@ -1,8 +1,11 @@
+import SideBar from "@/components/sidebar";
+import style from "../styles/Home.module.css"
+
 const Index = () => {
   return (
-    <>
-      <h1>Text</h1>
-    </>
+    <div className={style.home}>
+      <SideBar />
+    </div>
   );
 }
 

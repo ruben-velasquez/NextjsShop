@@ -1,0 +1,35 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: calc(20% - 20px);
+    gap: 20px;
+}  
+
+.section {
+    background: white;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.section .title, .section .content {
+    width: 100%;
+}
+
+.section .title {
+    padding: 10px;
+    background: var(--pallete-1);
+    color: var(--title-color-alt);
+    text-transform: uppercase;
+}
+
+.section .content {
+    display: grid;
+    gap: 10px;
+}
+
+.section .pageButton {
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
