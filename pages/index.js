@@ -1,9 +1,9 @@
-import Head from 'next/head';
-
-export default function Index() {
+const Index = () => {
   return (
-    <div>
-      <h1>Hola Mundo</h1>
-    </div>
-  )
+    <>
+      <h1>Text</h1>
+    </>
+  );
 }
+
+export default Index;

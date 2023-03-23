@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: var(--description-font);
+}
+
+body {
+  min-height: 100vh;
+  padding-top: var(--nav-height);
+}
+
+h1 {
+  font-family: var(--title-font);
+}
+p {
+  font-family: var(--description-font);
+}
+
+:root {
+  --pallete-1: #23192d;
+  --pallete-2: #fd0a54;
+  --pallete-3: #f57576;
+  --pallete-4: #febf97;
+  --pallete-5: #f5ecb7;
+
+  --title-color: black;
+  --description-color: rgb(100, 100, 100);
+
+  --title-color-alt: white;
+  --description-color-alt: rgb(168, 168, 168);
+
+  --title-font: "Alkatra";
+  --description-font: "Inter";
+
+  --nav-height: 80px;
+}

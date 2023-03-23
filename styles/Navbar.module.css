@@ -1,0 +1,56 @@
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--nav-height);
+    width: 100%;
+    padding: 10px 20px;
+    background: var(--pallete-1);
+}
+
+.title {
+    color: var(--title-color-alt);
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.option {
+    color: var(--title-color-alt);
+    padding: 10px;
+    font-size: 1em;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchBox {
+    display: flex;
+    align-items: stretch;
+    background: var(--title-color-alt);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.searchBox input {
+    padding: 10px;
+    border: none;
+}
+.searchBox .icon {
+    padding: 10px;
+    color: var(--title-color-alt);
+    border-left: 1px solid var(--pallete-2);
+    background: var(--pallete-2);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
