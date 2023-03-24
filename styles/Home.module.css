@@ -1,7 +1,7 @@
 .home {
     width: 100%;
     min-height: var(--window-height);
-    padding: 20px 0;
+    padding: 20px 30px;
     display: flex;
     gap: 20px;
 }
@@ -12,6 +12,24 @@
 
 .home .hero {
     width: 100%;
-    padding: 20px;
+    padding: 20px 5vw;
     background: var(--pallete-2);
+    display: flex;
+    align-items: center;
+}
+
+.home .hero .heroContent {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.home .hero h1 {
+    color: var(--title-color-alt);
+    font-size: 3em;
+}
+.home .hero p {
+    color: var(--description-color-alt);
 }

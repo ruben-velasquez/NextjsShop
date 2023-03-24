@@ -1,0 +1,7 @@
+.button {
+    display: block;
+    background: var(--section-background);
+    color: var(--title-color);
+    padding: 10px 40px;
+    width: fit-content;
+}
