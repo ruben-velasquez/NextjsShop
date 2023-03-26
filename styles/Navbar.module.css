@@ -8,6 +8,7 @@
     width: 100%;
     padding: 10px 20px;
     background: var(--pallete-1);
+    z-index: 2;
 }
 
 .title {
