@@ -1,24 +1,24 @@
 .productBox {
-    background: var(--section-background);
-    padding: 10px;
-    flex-basis: calc(33.33% - 13.33px);
+  background: var(--section-background);
+  padding: 10px;
+  /* flex-basis: calc(33.33% - 13.33px); */
 }
 
 .productBox .productImage img {
-    width: 100%;
+  width: 100%;
 }
 
 .productBox .productInfo {
-    width: 100%;
-    padding: 10px;
-    display: grid;
-    justify-items: center;
-    gap: 10px;
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  justify-items: center;
+  gap: 10px;
 }
 
 .productFooter {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

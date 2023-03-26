@@ -1,6 +1,7 @@
 import Button from "@/components/button";
 import Flex from "@/components/flex";
 import ProductBox from "@/components/productBox";
+import PromotionBox from "@/components/promotionBox";
 import SideBar from "@/components/sidebar";
 import style from "../styles/Home.module.css"
 
@@ -22,6 +23,13 @@ const Index = () => {
             price="$20"
             rating={5}
             image="https://media.discordapp.net/attachments/835918308166336545/1088611684777730058/e885d341-42cf-45d4-a02b-4e03452b1eef.jpg?width=448&height=448"
+          />
+          <PromotionBox
+            firstTitle="50%"
+            secondTitle="OFF this week"
+            description="Don't miss this amazing opportunity to save big on your favorite products! For a limited time only, you can get 50% off everything in our store. Whether you're looking for clothes, accessories, electronics, or home goods, you'll find something you love at a fraction of the price. Hurry up and shop now before this offer expires!"
+            buttonLabel="Shop Now"
+            buttonHref="#"
           />
           <ProductBox
             name="Black Pant"
