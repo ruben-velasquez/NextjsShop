@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -19,7 +19,9 @@ body {
   background-color: var(--background);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--title-font);
 }
 p {
@@ -42,8 +44,9 @@ p {
   --title-color-alt: white;
   --description-color-alt: whitesmoke;
 
-  --title-font: "Merriweather";
+  --title-font: "Kanit";
   --description-font: "Inter";
+  --number-font: "Kanit";
 
   --nav-height: 80px;
   --window-height: calc(100vh - 80px);

@@ -19,12 +19,13 @@
 
 .promotionBox h1 {
   color: var(--pallete-2);
+  font-family: var(--number-font);
   font-size: 5em;
-  font-weight: 600;
 }
 
 .promotionBox h2 {
   color: var(--title-color-alt);
+  letter-spacing: 5px;
 }
 
 .promotionBox p {
