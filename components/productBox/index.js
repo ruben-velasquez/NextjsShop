@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import ReactStars from "react-stars"
 import style from "../../styles/Productbox.module.css"
 
