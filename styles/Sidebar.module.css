@@ -9,6 +9,7 @@
     background: var(--section-background);
     display: grid;
     justify-items: center;
+    border-radius: var(--box-border-radius);
     overflow: hidden;
 }
 

@@ -9,6 +9,13 @@
   padding: 20px 30px;
 }
 
+.container {
+  width: 100%;
+  display: grid;
+  justify-items: center;  
+  padding: 20px 30px;
+}
+
 .home .content {
   flex-basis: 80%;
   display: flex;
@@ -20,6 +27,7 @@
   width: 100%;
   padding: 20px 5vw;
   background: var(--pallete-2);
+  border-radius: var(--box-border-radius);
   display: flex;
   align-items: center;
 }
@@ -34,6 +42,7 @@
 
 .home .hero h1 {
   color: var(--title-color-alt);
+  line-height: 1;
   font-size: 3em;
 }
 .home .hero p {

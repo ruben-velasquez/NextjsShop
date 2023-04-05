@@ -50,4 +50,6 @@ p {
 
   --nav-height: 80px;
   --window-height: calc(100vh - 80px);
+
+  --box-border-radius: 5px;
 }

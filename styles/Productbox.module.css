@@ -1,6 +1,7 @@
 .productBox {
   background: var(--section-background);
   padding: 10px;
+  border-radius: var(--box-border-radius);
   /* flex-basis: calc(33.33% - 13.33px); */
 }
 

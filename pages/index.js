@@ -1,12 +1,34 @@
 import BlockLevel from "@/components/blockLevel";
 import Button from "@/components/button";
 import Flex from "@/components/flex";
+import PostBox from "@/components/PostBox";
 import ProductBox from "@/components/productBox";
 import PromotionBox from "@/components/promotionBox";
 import SideBar from "@/components/sidebar";
 import style from "../styles/Home.module.css"
 
 const Index = () => {
+  const posts = [
+    {
+      title: "My First Post",
+      description: "Some description for the current post about the store and his articles",
+      imageURL: "https://th.bing.com/th/id/OIG.6wE_Ksh_bcJs6j.fKYcG?pid=ImgGn",
+      id: 1
+    },
+    {
+      title: "My Second Post",
+      description: "Some description for the current post about the store and his articles",
+      imageURL: "https://th.bing.com/th/id/OIG.QOTE4RHT1RRSpyNpx7kk?pid=ImgGn",
+      id: 2 
+    },
+    {
+      title: "My Third Post",
+      description: "Some description for the current post about the store and his articles",
+      imageURL: "https://th.bing.com/th/id/OIG._QAq3aCH0c6TxgPTMfvz?pid=ImgGn",
+      id: 3
+    },
+  ]
+
   return (
     <div className={style.home}>
       <div className={style.main}>
@@ -83,6 +105,9 @@ const Index = () => {
           />
         </Flex>
       </BlockLevel>
+      <div className={style.container}>
+        <PostBox posts={posts}/>
+      </div>
     </div>
   );
 }

@@ -4,4 +4,9 @@
     color: var(--title-color);
     padding: 10px 40px;
     width: fit-content;
+    border-radius: var(--box-border-radius);
+}
+.button.black {
+    background: var(--title-color);
+    color: var(--section-background);
 }
