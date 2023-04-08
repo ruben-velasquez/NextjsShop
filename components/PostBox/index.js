@@ -1,4 +1,4 @@
-import style from '../../styles/PostBox.module.css'
+import style from './PostBox.module.css'
 import Post from './Post'
 
 export default function PostBox({ posts }) {

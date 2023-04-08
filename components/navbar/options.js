@@ -1,4 +1,4 @@
-import style from "../../styles/Navbar.module.css";
+import style from "./Navbar.module.css";
 import { BiShoppingBag, BiUser } from "react-icons/bi";
 
 export default function Options() {

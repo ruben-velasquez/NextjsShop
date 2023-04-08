@@ -1,5 +1,5 @@
 import Button from "../button";
-import styles from '@/styles/Promotionbox.module.css'
+import styles from './Promotionbox.module.css'
 
 export default function PromotionBox({ firstTitle, secondTitle, description, buttonLabel, buttonHref }) {
     return (
@@ -9,7 +9,7 @@ export default function PromotionBox({ firstTitle, secondTitle, description, but
                 <h2>{secondTitle}</h2>
             </div>
             <p>{description}</p>
-            <Button label={buttonLabel} href={buttonHref} />
+            <Button label={buttonLabel} href={buttonHref} outlined={true}/>
         </div>
     )
 }

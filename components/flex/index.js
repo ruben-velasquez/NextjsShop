@@ -1,4 +1,4 @@
-import style from "../../styles/Flex.module.css"
+import style from "./Flex.module.css"
 
 export default function Flex({ children }) {
     return (

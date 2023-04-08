@@ -1,4 +1,4 @@
-import style from "../../styles/Sidebar.module.css"
+import style from "./Sidebar.module.css"
 
 export default function PageButton({ name, url }) {
     return (

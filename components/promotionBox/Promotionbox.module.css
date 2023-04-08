@@ -19,7 +19,7 @@
 }
 
 .promotionBox h1 {
-  color: var(--pallete-2);
+  color: var(--title-color-alt);
   font-family: var(--number-font);
   font-size: 5em;
 }

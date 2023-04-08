@@ -1,4 +1,4 @@
-import style from "../../styles/Navbar.module.css";
+import style from "./Navbar.module.css";
 import Options from "./options";
 import SearchBox from "./searchBox";
 

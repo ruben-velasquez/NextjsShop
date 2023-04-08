@@ -1,6 +1,7 @@
+"use client"
 import Image from 'next/legacy/image'
 import ReactStars from "react-stars"
-import style from "../../styles/Productbox.module.css"
+import style from "./Productbox.module.css"
 
 export default function ProductBox({ name, description, image, price, rating }) {
     return (

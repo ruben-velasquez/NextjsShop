@@ -37,7 +37,7 @@ const Index = () => {
             <div className={style.heroContent}>
               <h1>Some Amaizing Title</h1>
               <p>lorem ipsum dolor sit amet consectetur</p>
-              <Button label="Something" href="#" />
+              <Button label="Something" href="#" outlined={true} />
             </div>
           </div>
           <Flex>

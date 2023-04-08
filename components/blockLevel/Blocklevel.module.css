@@ -1,5 +1,5 @@
 .blockLevel {
-    background: var(--pallete-1);
+    background: var(--block-level-background);
     width: 100%;
     padding: 30px 30px;
     display: flex;

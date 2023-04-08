@@ -1,7 +1,7 @@
 .button {
     display: block;
-    background: var(--section-background);
-    color: var(--title-color);
+    background: var(--pallete-2);
+    color: var(--title-color-alt);
     padding: 10px 40px;
     width: fit-content;
     border-radius: var(--box-border-radius);
@@ -9,4 +9,10 @@
 .button.black {
     background: var(--title-color);
     color: var(--section-background);
+}
+
+.button.outlined {
+    background: transparent;
+    border: 1px solid var(--title-color-alt); 
+    color: var(--title-color-alt);
 }

@@ -26,7 +26,7 @@
 .home .hero {
   width: 100%;
   padding: 20px 5vw;
-  background: var(--pallete-2);
+  background: var(--hero-background);
   border-radius: var(--box-border-radius);
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 20px;
 }
 
 .home .hero h1 {

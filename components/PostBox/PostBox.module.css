@@ -5,6 +5,7 @@
     display: grid;
     gap: 20px;
     background: var(--section-background);
+    border-radius: var(--box-border-radius);
 }
 
 .postBox .content {

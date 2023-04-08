@@ -1,4 +1,4 @@
-import style from "../../styles/Navbar.module.css";
+import style from "./Navbar.module.css";
 import { BiSearch } from "react-icons/bi";
 
 export default function SearchBox() {

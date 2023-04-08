@@ -1,4 +1,4 @@
-import style from "../../styles/Sidebar.module.css"
+import style from "./Sidebar.module.css"
 
 export default function Section({ name, children }) {
     return (

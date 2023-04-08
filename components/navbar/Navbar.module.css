@@ -7,7 +7,7 @@
     height: var(--nav-height);
     width: 100%;
     padding: 10px 20px;
-    background: var(--pallete-1);
+    background: var(--nav-background);
     z-index: 2;
 }
 

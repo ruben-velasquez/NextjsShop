@@ -1,4 +1,4 @@
-import style from "../../styles/Blocklevel.module.css";
+import style from "./Blocklevel.module.css";
 
 export default function BlockLevel({ title, description, children }) {
     return (

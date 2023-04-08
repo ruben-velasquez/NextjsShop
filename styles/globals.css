@@ -29,7 +29,11 @@ p {
 }
 
 :root {
-  --pallete-1: #23192d;
+  --nav-background: #23192d;
+  --hero-background: #23192d;
+  --block-level-background: #23192d;
+
+  --pallete-1: #2d213a;
   --pallete-2: #fd0a54;
   --pallete-3: #f57576;
   --pallete-4: #febf97;
@@ -42,7 +46,7 @@ p {
   --description-color: rgb(100, 100, 100);
 
   --title-color-alt: white;
-  --description-color-alt: whitesmoke;
+  --description-color-alt: rgb(199, 199, 199);
 
   --title-font: "Kanit";
   --description-font: "Inter";

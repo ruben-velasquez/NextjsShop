@@ -19,7 +19,7 @@
 
 .section .title {
     padding: 10px;
-    background: var(--pallete-3);
+    background: var(--pallete-1);
     color: var(--title-color-alt);
     text-transform: uppercase;
 }

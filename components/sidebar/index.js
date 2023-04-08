@@ -1,4 +1,4 @@
-import style from "../../styles/Sidebar.module.css"
+import style from "./Sidebar.module.css"
 import PageButton from "./pageButon"
 import Section from "./section"
 
