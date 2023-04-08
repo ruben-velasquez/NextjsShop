@@ -29,6 +29,9 @@ p {
 }
 
 :root {
+  --footer-copyright-background: #2d213a;
+  --footer-background: #23192d;
+  --nav-background: #23192d;
   --nav-background: #23192d;
   --hero-background: #23192d;
   --block-level-background: #23192d;

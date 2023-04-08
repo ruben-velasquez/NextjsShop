@@ -1,0 +1,96 @@
+.footer {
+    width: 100%;
+    min-height: 200px;
+    display: grid;
+    justify-items: stretch;
+}
+
+.footer .content {
+    display: flex;
+    padding: 30px;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 20px;
+    background: var(--footer-background);
+}
+
+.footer .copyright {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: var(--footer-copyright-background);
+}
+
+.footerElement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+    max-width: 250px;
+    gap: 10px;
+}
+
+.footerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    max-width: 250px;
+}
+
+.footer p {
+    color: var(--description-color-alt);
+    font-size: 1em;
+}
+.footer h1 {
+    color: var(--title-color-alt);
+    font-size: 1.5em;
+}
+
+.newsletterBox {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    border-radius: var(--box-border-radius);
+    overflow: hidden;
+}
+
+.newsletterBox .inputBox {
+    flex: 2;
+    padding: 10px;
+    background: var(--section-background);
+}
+
+.newsletterBox .inputBox input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: var(--title-color);
+    background: transparent;
+    border: none;
+}
+
+.newsletterBox .buttonBox {
+    flex: 1;
+    padding: 10px;
+    background: var(--footer-copyright-background);
+}
+
+.newsletterBox  button{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: var(--title-color-alt);
+    background: transparent;
+    border: none;
+}
+
+.socialList {
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+    color: var(--description-color-alt);
+}
