@@ -16,3 +16,9 @@
     border: 1px solid var(--title-color-alt); 
     color: var(--title-color-alt);
 }
+
+.button.outlined.black {
+    background: transparent;
+    border: 1px solid var(--title-color);
+    color: var(--title-color);
+}
